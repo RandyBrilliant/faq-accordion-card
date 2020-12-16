@@ -44,8 +44,8 @@ main {
 .faq-accordion-card {
   background: white;
   border-radius: 20px;
-  width: 1000px;
-  height: 500px;
+  width: 75vw;
+  height: 75vh;
   display: flex;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
@@ -160,13 +160,12 @@ main {
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--text-primary-2);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .faq-accordion-card {
-    width: 250px;
-    height: 450px;
+    height: 70vh;
     flex-direction: column;
     align-items: center;
   }
@@ -174,17 +173,17 @@ main {
   .left-window {
     background-image: url(./images/bg-pattern-mobile.svg);
     background-size: 50vw;
-    background-position: 50% 5%;
+    background-position: 40% 10%;
     flex: 0 0 20%;
   }
 
   .woman-desk-img {
-    width: 60vw;
+    width: 50vw;
     height: auto;
     display: block;
     position: absolute;
     bottom: 85%;
-    left: 7%;
+    left: 10%;
   }
 
   .right-window {
@@ -200,7 +199,7 @@ main {
 
   .right-window > h1 {
     font-size: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     text-align: center;
   }
 
@@ -217,8 +216,8 @@ main {
 
   .accordion-content-detail {
     font-size: 10px;
-    line-height: 0.8rem;
-    padding-right: 20px;
+    line-height: 0.9rem;
+    padding-right: 25px;
     margin-bottom: 7px;
   }
 }
